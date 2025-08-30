@@ -10,7 +10,7 @@ public class PacketGetWeeklyReportRsp : BasePacket
     {
         var proto = new GetWeeklyReportRsp
         {
-            Retcode = GetWeeklyReportRsp.Types.Retcode.Fail,
+            Retcode = GetWeeklyReportRsp.Types.Retcode.Succ,
             TargetUid = (uint)player.Data.Uid,
         };
 

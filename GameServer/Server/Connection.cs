@@ -44,7 +44,17 @@ public class Connection(KcpConversation conversation, IPEndPoint remote) : KcpCo
         "PjmsGetAchievementDataReq", "PjmsGetConditionDataReq", "PjmsGetCurWorldReq", "PjmsGetStoryDataReq",
         "ReunionCookGetActivityReq", "SimplifiedGodWarGetActivityReq",
         "StageInnerDataReportReq", "SusannaTrialGetActivityReq", "ThemeWantedRefreshTicketReq",
-        "UpdateMissionProgressReq", "WaveRushGetActivityReq"
+        "UpdateMissionProgressReq", "WaveRushGetActivityReq",
+
+
+        "MirageGetActivityReq","PjmsChapterKnightSpaceAdventureGetMainDataReq",
+        "GetOpenworldStoryReq", "OpenworldChapterGetDataReq", "OpenworldChapterGetShopDataReq",
+        "GetWareHouseDataReq",
+        "GetExtraStoryChallengeModeDataReq",
+        "GetSignInRewardStatusReq","GetContinuousRechargeActivityReq",
+        "GreedyEndlessTakeRankRewardReq",
+        "UltraEndlessTopRankRewardReq",
+        "PjmsChapterKnightDurandalCubeGetDataReq"
     ];
 
     public override async void Start()

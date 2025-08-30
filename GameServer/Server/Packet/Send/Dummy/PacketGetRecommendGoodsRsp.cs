@@ -9,7 +9,14 @@ public class PacketGetRecommendGoodsRsp : BasePacket
     {
         var proto = new GetRecommendGoodsRsp
         {
-        
+            Retcode = GetRecommendGoodsRsp.Types.Retcode.Succ,
+            RecommendGoodsList =
+            {
+                new RecommendGoods
+                {
+                    ShopId = 1
+                }
+            }
         };
 
         SetData(proto);

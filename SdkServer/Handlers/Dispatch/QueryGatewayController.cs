@@ -93,8 +93,8 @@ public static partial class UrlProvider
             ],
             "gf" when version.Contains("beta") =>
             [
-                "https://autopatchbeta.bh3.com/asset_bundle/beta_dev/1.0",
-                "https://bh3rd-beta.bh3.com/asset_bundle/beta_release/1.0",
+                "https://autopatchbeta.bh3.com/asset_bundle/beta_release/1.0",
+                "https://bh3rd-beta.bh3.com/asset_bundle/beta_release/1.0"
             ],
             "gf" =>
             [
@@ -143,7 +143,7 @@ public static partial class UrlProvider
             "gf" when version.Contains("beta") =>
             [
                 "autopatchbeta.bh3.com/tmp/CGAudio",
-                "autopatchbeta.bh3.com/tmp/CGAudio",
+                "bh3rd-beta.bh3.com/tmp/CGAudio"
             ],
             _ =>
             [
