@@ -33,4 +33,21 @@ public class LogDataUploadController : ControllerBase
             milliTs = DateTime.Now.Millisecond.ToString()
         });
     }
+    [HttpGet("/")]
+     public IActionResult PerformanceLogUpload()
+    {
+        return Ok(new { 
+            code = 0, 
+            message = "OK", 
+            data = new { } 
+        });
+    }
+    [HttpPost("/")]
+    public IActionResult PerformanceLogUploadPost([FromBody] object data)
+    {
+        return Ok(new { 
+            code = 0, 
+            message = "OK" 
+        });
+    }
 }
